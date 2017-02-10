@@ -1,0 +1,73 @@
+@import "variables";
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	color: #FFF;
+	background: #e87722;
+	position: fixed;
+	top: 0px;
+	padding: 10px;
+	z-index: 2;
+	
+	h1 {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+section.content {
+	margin-top: 60px;
+	padding: 10px;
+	
+	#navigation {
+		width: 18%;
+	}
+	
+	#style-guide {
+			
+		.doc {
+			min-height: 300px;
+			
+			.title {
+				border-bottom: 1px solid;
+				padding-bottom: 10px;
+			}
+		}
+		
+		#brand {
+			.color {
+				width: 75px;
+				height: 75px;
+				color: #FFF;
+			}
+			
+			section > div.row {
+				padding-bottom: 10px;
+			}
+			
+			.primary-color {
+				background-color: $brand-primary;
+			}
+			
+			.secondary-color {
+				background-color: $brand-success;
+			}
+			
+			.ternary-color {
+				background-color: $brand-info;
+			}
+		}
+		
+		#buttons {
+			
+			section > div {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
